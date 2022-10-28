@@ -1,11 +1,159 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
 }
-
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+}
+header > div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+}
+header > div.container >h1{
+    padding-left: 130px;
+}
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: right;
+}
+
+li{
+   padding:5px; 
+}
+
+nav{
+    display:flex;
+    justify-content: right;
+}
+h1{
+    display: flex;
+    text-align: center;
+}
+
+.learn-about h2{
+    padding: 0px 0px 0px 45px;
+}
+
+.overview-hero{
+    display:grid;
+    padding: 30px;
+
+}
+.overview-hero > div{
+    display:grid;
+    grid-template-columns: 30% 60%;
+    
+}
+
+.overview-hero img{
+    padding-left: 140px;
+    width: 170px;
+    height: 170px;
+    align-content: center;
+    
+}
+
+.overview-hero-text{
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.learn-about > div > h2{
+    padding-left: 130px;
+}
+.cards{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.card img{
+    display: flex;
+    width: 150px;
+    height: 150px;   
+    margin: 15px;
+}
+
+.testing >.container{
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+.testing-desciption{
+    display: grid;
+    padding-left: 130px;
+    padding-right: 60px;
+}
+.cta{
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.stories{
+    display: flex;
+}
+
+.stories >div.container{
+    padding-left: 240px;
+    padding-right: 100px;
+}   
+
+.stories >div>h2{
+    padding-left: 55px;
+}
+
+.stories article{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+}
+.stories img{
+    width:160px;
+    height: 160px;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter.container{
+    align-items: center;
+}
+
+.newsletter h3{
+    text-align: center;
+}
+.newsletter p{
+    text-align: left;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+.newsletter > div.container > form{
+    padding-left: 280px;
+}
+
+.newsletter input{
+    display: flex;
+}
+.newsletter.btn{
+    display: flex;
+    padding-bottom: 1000px;
+}
+.message{
+    padding: 20px 0px 0px 0px;
+}
+footer{
+    padding-left: 100px;
 }
