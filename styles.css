@@ -89,10 +89,10 @@ h1{
 
 .cards{
     display:grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
     justify-content: space-evenly;
-    padding-left: 120px;
-    padding-right: 10px;
+    padding-left: 80px;
+    margin: 40px;
 }
 .card h3{
     font-size: 21px;
@@ -106,7 +106,7 @@ h1{
     padding-left: 30px;
 }
 
-div.card{
+.card{
     border-radius: 5px;
     border-color: #E2E8F0;
     border-style: solid;
@@ -116,6 +116,8 @@ div.card{
 
 .testing > .container{
     display:grid;
+    padding-top: 30px;
+    padding-bottom: 90px;
     grid-template-columns: 70% 30%;
     background-color: #4A5568;
     color: white;
@@ -123,8 +125,8 @@ div.card{
 
 .testing-desciption{
     display: grid;
-    padding-left: 130px;
-    padding-right: 60px;
+    padding-left: 150px;
+    padding-right: 100px;
 }
 
 .cta{
@@ -197,19 +199,35 @@ div.card{
     padding-right: 290px;
 }
 
-.newsletter > div.container > form{
+form{
+    display: flex;
     padding-left: 280px;
 }
 
 .newsletter input{
-    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+    margin-right: 15px;
+    padding-bottom: 10px;
 }
 .newsletter button.btn{
-    background-color: #5A67D8
-    ;
+    background-color: #5A67D8;
+    border-color:#5A67D8 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding-bottom: 5px;
+    
 }
 .message{
-    padding: 20px 0px 0px 0px;
+    padding-bottom: 30px;
 }
 
 footer{
